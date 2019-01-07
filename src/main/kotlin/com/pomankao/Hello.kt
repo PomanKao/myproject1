@@ -6,6 +6,12 @@ fun main(args: Array<String>) {
     human.hello()
     human.age = 20
     print(human.age)
+    var age = 10
+    age = 12
+    var weight = 66.5f
+    var name: String
+    name = "Poman"
+    print("name is $name")
 }
 
 class Human {
